@@ -30,7 +30,7 @@ function YourBotArmy() {
       <div className="card-container">
         {enlistedBots.map((bot) => (
           <div key={bot.id}>
-            <button className="discharge-button" onClick={() => handleDischarge(bot.id)}> X </button>
+            <button className="discharge-button" onClick={() => handleDischarge(bot.id)}> DELETE </button>
             <BotDetails key={bot.id} bot={bot} onDelete={() => handleDelete(bot.id)} />
 
           </div>           

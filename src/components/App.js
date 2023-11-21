@@ -16,11 +16,15 @@ function App() {
   );
 }
 
-export default () => (
-  <BotProvider>
+export default function WrappedApp() {
+  return (
+    <BotProvider>
     <App />
   </BotProvider>
-)
+  );
+}
+  
+
 
 
 
