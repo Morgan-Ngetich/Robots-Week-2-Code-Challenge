@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# BOT BATLRR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
+This project is a React application that allows users to view a collection of robots, explore details of individual robots, and enlist them into their own "bot army." The application leverages React Router for navigation and utilizes a context provider to manage the state of enlisted bots.
 
-## Available Scripts
+## Table of Contents
+- [How the Program Works](#how-the-program-works)
+- [How to Use the Project](#how-to-use-the-project)
+- [Features](#features)
+- [Built With](#built-with)
+- [Author](#author)
+- [License](#license)
 
-In the project directory, you can run:
+## How the Program Works
+The program consists of several React components that work together to create a seamless user experience. The main components include:
+- **App:** The root component that sets up the routing using React Router.
+- **BotCollection:** Displays a collection of robots fetched from an external API and allows users to click on a robot to view its details.
+- **BotSpecs:** Displays detailed information about a selected robot, including the option to add the robot to the user's enlisted bots.
+- **YourBotArmy:** Shows the user's enlisted bots and provides the option to remove bots from the enlisted list.
 
-### `npm start`
+## How to Use the Project
+1. Clone the repository to your local machine.
+```
+git clone git@github.com:Morgan-Ngetich/Robots-Week-2-Code-Challenge.git
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Install dependencies using `npm install`.
+3. Run the application with `npm start`.
+4. Open your browser and navigate to `http://localhost:3000` to use the application.
+5. Explore the bot collection, view details, and add bots to your bot army.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can also view this website [here.](655cd0f5397ed10504ca2f8d--ephemeral-gingersnap-b826f4.netlify.app/)
 
-### `npm test`
+## Features
+- View a collection of robots with their basic details.
+- Click on a robot to view more detailed specifications.
+- Add robots to your enlisted bot army.
+- View and manage your enlisted bot army.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
+- React
+- React Router
+- JavaScript (ES6+)
 
-### `npm run build`
+## Author
+[Morgan-Ngetich](https://github.com/Morgan-Ngetich)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License 
+This project is licensed under the [MIT License](https://github.com/Morgan-Ngetich/Robots-Week-2-Code-Challenge/new/main)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to replace `[Morgan-Ngetich]` in the "Author" section with your actual name or the name of your team if applicable. Additionally, you may want to customize the "How to Use the Project" section based on any specific setup instructions or additional dependencies required for your project.
