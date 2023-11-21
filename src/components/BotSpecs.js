@@ -14,7 +14,7 @@ function BotSpecs() {
   
 
   useEffect(() => {
-    fetch(`http://localhost:3000/bots/${id}`)
+    fetch(`https://robotsdata.onrender.com/bots/${id}`)
       .then((res) => res.json())
       .then((data) => setViewBot(data));
   }, [id]);

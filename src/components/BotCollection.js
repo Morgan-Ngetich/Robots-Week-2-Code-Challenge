@@ -10,7 +10,7 @@ function BotCollection() {
 
   //Hook fetches as the Components mounts
   useEffect(() => {
-    fetch("http://localhost:3000/bots")  //"GET" request
+    fetch("https://robotsdata.onrender.com/bots")  //"GET" request
       .then((res) => res.json())
       .then((data) => setBots(data));
   }, []); 

@@ -13,7 +13,7 @@ function YourBotArmy() {
 
 
   const dischargeBot = (id) => {
-    fetch(`http://localhost:3000/bots/${id}`, {
+    fetch(`https://robotsdata.onrender.com/bots/${id}`, {
       method: "DELETE",
     });
     removeBot(id);
