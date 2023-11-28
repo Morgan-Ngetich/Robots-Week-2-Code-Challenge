@@ -29,7 +29,7 @@ git clone git@github.com:Morgan-Ngetich/Robots-Week-2-Code-Challenge.git
 4. Open your browser and navigate to `http://localhost:3000` to use the application.
 5. Explore the bot collection, view details, and add bots to your bot army.
 
-You can also view this website [here.](655cd0f5397ed10504ca2f8d--ephemeral-gingersnap-b826f4.netlify.app/)
+You can also view this website [here.](https://6565b642742d4650df4dc916--fastidious-daifuku-4d7fa4.netlify.app/).
 
 ## Features
 - View a collection of robots with their basic details.
