@@ -15,9 +15,14 @@ function YourBotArmy() {
   const dischargeBot = (id) => {
     fetch(`https://robotsdata.onrender.com/bots/${id}`, {
       method: "DELETE",
+    }).then(() => {
+      removeBot(id);
+      window.location.reload(); // Reload the page after the bot is removed      
+    }).catch((error) => {
+      console.error('Error removing bot:', error);
     });
-    removeBot(id);
   }
+
 
   const handleDischarge = (id) => {
     dischargeBot(id);
